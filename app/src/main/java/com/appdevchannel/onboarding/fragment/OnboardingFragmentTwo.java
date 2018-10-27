@@ -10,13 +10,13 @@ import android.view.ViewGroup;
 
 import com.appdevchannel.onboarding.R;
 
-public class OnboardingFragmentOne extends Fragment {
+public class OnboardingFragmentTwo extends Fragment {
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 
-        return inflater.inflate(R.layout.fragment_onboarding_s1, container, false);
+        return inflater.inflate(R.layout.fragment_onboarding_s2, container, false);
 
     }
 }
