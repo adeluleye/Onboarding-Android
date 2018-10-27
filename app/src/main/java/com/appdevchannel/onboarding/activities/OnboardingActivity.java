@@ -14,10 +14,11 @@ import com.vlonjatg.android.apptourlibrary.AppTour;
 public class OnboardingActivity extends AppTour {
     @Override
     public void init(@Nullable Bundle savedInstanceState) {
-        int customSlideColor = Color.parseColor("#050200");
+        int customSlideColor = Color.parseColor("#008577");
         addSlide(new OnboardingFragmentOne(), customSlideColor);
         addSlide(new OnboardingFragmentTwo(), customSlideColor);
         addSlide(new OnboardingFragmentThree(), customSlideColor);
+        setSeparatorColor(Color.parseColor("#008577"));
         setSkipButtonTextColor(Color.WHITE);
         setNextButtonColorToWhite();
         setDoneButtonTextColor(Color.WHITE);
